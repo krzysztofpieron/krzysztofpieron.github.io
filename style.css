@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 11px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 21px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(201px, 1fr));
+    gap: 11px;
+    padding: 21px;
+}
+
+.grid-item {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 21px;
+    text-align: center;
+}
+
+section {
+    padding: 21px;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 11px;
+    }
+}
