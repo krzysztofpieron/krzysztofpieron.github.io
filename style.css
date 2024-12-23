@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #69C25D;
     color: white;
     padding: 11px 0;
     text-align: center;
@@ -38,6 +38,7 @@ nav ul li {
 
 section {
     padding: 21px;
+    flex-grow: 1;
 }
 
 footer {
